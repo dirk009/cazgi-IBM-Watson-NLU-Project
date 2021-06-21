@@ -16,7 +16,7 @@ function getNLUInstance() {
     }),
     serviceUrl: '{url}',
     });
-    return naturalLanguageUnderstandingV1;
+    return naturalLanguageUnderstanding;
 }
 
 const app = new express();
